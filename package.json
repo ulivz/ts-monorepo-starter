@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "bootstrap": "pnpm install --prefer-offline",
-    "docs": "doctoc --title '**Table of content**' README.md",
+    "docs": "doctoc --title '## Table of Contents' README.md",
     "clean": "pnpm run -r clean",
     "build": "pnpm run -r build",
     "test": "pnpm run -r test",
@@ -17,7 +17,6 @@
     "eslint-config-typescript-library": "0.1.0",
     "doctoc": "2.2.0",
     "eslint": "8.32.0",
-    "eslint-plugin-import": "2.27.0",
     "typescript": "4.9.4"
   }
 }
