@@ -1,3 +1,3 @@
 module.exports = {
-  extends: "@nighttrax/eslint-config-tsx",
+  extends: "eslint-config-typescript-library",
 };
