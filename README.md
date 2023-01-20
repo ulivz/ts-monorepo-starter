@@ -10,7 +10,6 @@
   - [Concepts](#concepts)
     - [Go to definition](#go-to-definition)
     - [Lock Dependency Version](#lock-dependency-version)
-    - [](#)
   - [Prior Arts](#prior-arts)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -34,8 +33,6 @@ See: [How to set up a TypeScript monorepo and make Go to definition work](https:
 ### Lock Dependency Version
 
 > TODO
-
-### 
 
 
 ## Prior Arts
