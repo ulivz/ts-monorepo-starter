@@ -6,14 +6,12 @@ importers:
     specifiers:
       doctoc: 2.2.0
       eslint: 8.32.0
-      eslint-config-typescript-library: 0.1.0
-      eslint-plugin-import: 2.27.0
+      eslint-config-typescript-library: 0.2.1
       typescript: 4.9.4
     devDependencies:
       doctoc: 2.2.0
       eslint: 8.32.0
-      eslint-config-typescript-library: 0.1.0_7uibuqfxkfaozanbtbziikiqje
-      eslint-plugin-import: 2.27.0_eslint@8.32.0
+      eslint-config-typescript-library: 0.2.1_7uibuqfxkfaozanbtbziikiqje
       typescript: 4.9.4
 
   packages/foo:
@@ -648,12 +646,12 @@ packages:
       eslint: 8.32.0
       eslint-plugin-import: 2.27.5_bzolr7xl6xcwr64wsu2tr4eimm
       object.assign: 4.1.4
-      object.entries: 1.1.5
+      object.entries: 1.1.6
       semver: 6.3.0
     dev: true
 
-  /eslint-config-typescript-library/0.1.0_7uibuqfxkfaozanbtbziikiqje:
-    resolution: {integrity: sha512-qW3q5mRsl91KFDAwKeKAtzWl8KTD2A+oNCr/ov3Mljdl9FvtcaAT1yiiSt1d4p6Y7dAi7+5n2QwNw6cdHcUbRw==}
+  /eslint-config-typescript-library/0.2.1_7uibuqfxkfaozanbtbziikiqje:
+    resolution: {integrity: sha512-9+YS0rUfshdOsd7aBjl6Zfoi4knUldRcsV4Ct9+6kasfleDqgiHycomoaCHlQqyMT3/eqeRo+ZRx0FJy9+vtqg==}
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.48.2_caon6io6stgpr7lz2rtbhekxqy
       '@typescript-eslint/parser': 5.48.2_7uibuqfxkfaozanbtbziikiqje
@@ -730,67 +728,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-module-utils/2.7.4_tdm2zecdp3gdwhfxnfmevnwugq:
-    resolution: {integrity: sha512-j4GT+rqzCoRKHwURX7pddtIPGySnX9Si/cgMI5ztrcqOPtk5dDEeZ34CQVPphnqkJytlc97Vuk05Um2mJ3gEQA==}
-    engines: {node: '>=4'}
-    peerDependencies:
-      '@typescript-eslint/parser': '*'
-      eslint: '*'
-      eslint-import-resolver-node: '*'
-      eslint-import-resolver-typescript: '*'
-      eslint-import-resolver-webpack: '*'
-    peerDependenciesMeta:
-      '@typescript-eslint/parser':
-        optional: true
-      eslint:
-        optional: true
-      eslint-import-resolver-node:
-        optional: true
-      eslint-import-resolver-typescript:
-        optional: true
-      eslint-import-resolver-webpack:
-        optional: true
-    dependencies:
-      debug: 3.2.7
-      eslint: 8.32.0
-      eslint-import-resolver-node: 0.3.7
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
   /eslint-plugin-financial/0.1.0:
     resolution: {integrity: sha512-nv3gSlz+VJ2K3sJrgaEqJK9J6zETzc1mij4PilEHs3ay4XxT2FvqXpLjn0U4An4fmW4EcoGK/l84XftNcEFWYg==}
-    dev: true
-
-  /eslint-plugin-import/2.27.0_eslint@8.32.0:
-    resolution: {integrity: sha512-g+25RejC0uMcimFhm55XGPkbXR5qJMZ8KRN9hEJrQ+9U1VLrt76IjHD3/+QKu/0h1Wm6S2a73DFK8UYZRmfnYg==}
-    engines: {node: '>=4'}
-    deprecated: v2.27.0 is missing a runtime dependency - it is fixed in v2.27.1+
-    peerDependencies:
-      '@typescript-eslint/parser': '*'
-      eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8
-    peerDependenciesMeta:
-      '@typescript-eslint/parser':
-        optional: true
-    dependencies:
-      array-includes: 3.1.6
-      array.prototype.flat: 1.3.1
-      debug: 3.2.7
-      doctrine: 2.1.0
-      eslint: 8.32.0
-      eslint-import-resolver-node: 0.3.7
-      eslint-module-utils: 2.7.4_tdm2zecdp3gdwhfxnfmevnwugq
-      has: 1.0.3
-      is-core-module: 2.11.0
-      is-glob: 4.0.3
-      minimatch: 3.1.2
-      object.values: 1.1.6
-      resolve: 1.22.1
-      tsconfig-paths: 3.14.1
-    transitivePeerDependencies:
-      - eslint-import-resolver-typescript
-      - eslint-import-resolver-webpack
-      - supports-color
     dev: true
 
   /eslint-plugin-import/2.27.5_bzolr7xl6xcwr64wsu2tr4eimm:
@@ -1704,15 +1643,6 @@ packages:
       define-properties: 1.1.4
       has-symbols: 1.0.3
       object-keys: 1.1.1
-    dev: true
-
-  /object.entries/1.1.5:
-    resolution: {integrity: sha512-TyxmjUoZggd4OrrU1W66FMDG6CuqJxsFvymeyXI51+vQLN67zYfZseptRge703kKQdo4uccgAKebXFcRCzk4+g==}
-    engines: {node: '>= 0.4'}
-    dependencies:
-      call-bind: 1.0.2
-      define-properties: 1.1.4
-      es-abstract: 1.20.4
     dev: true
 
   /object.entries/1.1.6:
