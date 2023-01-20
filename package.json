@@ -3,10 +3,10 @@
   "description": "Template for setting up a TypeScript monorepo",
   "private": true,
   "workspaces": [
-    "packages/*",
-    "apps/*"
+    "packages/*"
   ],
   "scripts": {
+    "bootstrap": "pnpm install --prefer-offline",
     "docs": "doctoc --title '**Table of content**' README.md",
     "clean": "pnpm run -r clean",
     "build": "pnpm run -r build",
