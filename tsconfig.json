@@ -1,11 +1,10 @@
 {
   "extends": "./tsconfig.build.json",
-
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@nighttrax/components/*": ["packages/components/src/*"],
-      "@nighttrax/*": ["packages/*/src"]
+      "@nomadland/components/*": ["packages/components/src/*"],
+      "@nomadland/*": ["packages/*/src"]
     },
     "noEmit": true
   }

@@ -1,5 +1,5 @@
 {
-  "name": "@nighttrax/components",
+  "name": "@nomadland/components",
   "version": "1.0.0",
   "scripts": {
     "build": "pnpm run clean && pnpm run compile",
@@ -11,7 +11,7 @@
     "react": "~18.2.0"
   },
   "dependencies": {
-    "@nighttrax/foo": "*"
+    "@nomadland/foo": "*"
   },
   "devDependencies": {
     "@types/react": "~18.0.0",
