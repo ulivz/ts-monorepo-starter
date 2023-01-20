@@ -1,5 +1,6 @@
 {
-  "name": "@nomadland/bar",
+  "private": true,
+  "name": "@nomadland/shared",
   "version": "1.0.0",
   "main": "dist/index",
   "types": "dist/index",
@@ -8,12 +9,9 @@
   ],
   "scripts": {
     "build": "pnpm run clean && pnpm run compile",
-    "clean": "rimraf ./dist",
+    "clean": "rimraf ./lib",
     "compile": "tsc -p tsconfig.build.json",
     "prepublishOnly": "pnpm run build"
-  },
-  "dependencies": {
-    "@nomadland/foo": "~1.0.0"
   },
   "devDependencies": {
     "rimraf": "~4.1.0",
