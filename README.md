@@ -7,7 +7,10 @@
 - [Monorepo Template](#monorepo-template)
   - [Quick Start](#quick-start)
     - [Install Dependencies](#install-dependencies)
-  - [Design Concepts](#design-concepts)
+  - [Concepts](#concepts)
+    - [Go to definition](#go-to-definition)
+    - [Lock Dependency Version](#lock-dependency-version)
+    - [](#)
   - [Prior Arts](#prior-arts)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -22,7 +25,17 @@
 npm run bootstrap
 ```
 
-## Design Concepts
+## Concepts
+
+### Go to definition
+
+See: [How to set up a TypeScript monorepo and make Go to definition work](https://medium.com/@NiGhTTraX/how-to-set-up-a-typescript-monorepo-with-lerna-c6acda7d4559)
+
+### Lock Dependency Version
+
+> TODO
+
+### 
 
 
 ## Prior Arts
