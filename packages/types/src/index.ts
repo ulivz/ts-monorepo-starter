@@ -1,1 +1,3 @@
-export const meaningOfLife = 42;
+export interface Options {
+  name: string;
+}

@@ -14,10 +14,11 @@
     "prepublishOnly": "pnpm run build"
   },
   "dependencies": {
-    "@nomadland/foo": "~1.0.0"
+    "@nomadland/shared": "1.0.0",
+    "@nomadland/types": "1.0.0"
   },
   "devDependencies": {
-    "rimraf": "~4.1.0",
-    "typescript": "~4.9.0"
+    "rimraf": "4.1.0",
+    "typescript": "4.9.4"
   }
 }
