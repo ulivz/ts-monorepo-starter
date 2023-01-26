@@ -6,12 +6,12 @@ importers:
     specifiers:
       doctoc: 2.2.0
       eslint: 8.32.0
-      eslint-config-typescript-library: 0.2.2
+      eslint-config-typescript-library: 0.2.4
       typescript: 4.9.4
     devDependencies:
       doctoc: 2.2.0
       eslint: 8.32.0
-      eslint-config-typescript-library: 0.2.2_7uibuqfxkfaozanbtbziikiqje
+      eslint-config-typescript-library: 0.2.4_7uibuqfxkfaozanbtbziikiqje
       typescript: 4.9.4
 
   packages/foo:
@@ -650,8 +650,8 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-config-typescript-library/0.2.2_7uibuqfxkfaozanbtbziikiqje:
-    resolution: {integrity: sha512-7KVWWPd8IPAE2ydW88aTMMQjRIH8EQw1OGZTQHy69DhAgrKBnB3wm6lW/4pO65iCNF2dCaz9CoSKBJRwQxG+Gw==}
+  /eslint-config-typescript-library/0.2.4_7uibuqfxkfaozanbtbziikiqje:
+    resolution: {integrity: sha512-FlPCEu8Rtotb6/xBifDLfj9tHdU35pvyJKDBma1CflAebdRCjBZyhY2cdM0XtiR807LDIyQ+MRw7vOJMeP85kQ==}
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.48.2_caon6io6stgpr7lz2rtbhekxqy
       '@typescript-eslint/parser': 5.48.2_7uibuqfxkfaozanbtbziikiqje
