@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@nomadland/foo",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "lib/index",
   "types": "lib/index",
   "files": [
@@ -14,8 +14,8 @@
     "prepublishOnly": "pnpm run build"
   },
   "dependencies": {
-    "@nomadland/shared": "1.0.0",
-    "@nomadland/types": "1.0.0"
+    "@nomadland/shared": "0.0.1",
+    "@nomadland/types": "0.0.1"
   },
   "devDependencies": {
     "rimraf": "4.1.0",
