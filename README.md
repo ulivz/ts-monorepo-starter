@@ -10,16 +10,24 @@
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
+- [Quick Start](#quick-start)
 - [Concepts](#concepts)
   - [Integrations](#integrations)
   - [Go to definition](#go-to-definition)
   - [Lock Dependency Version](#lock-dependency-version)
-- [Quick Start](#quick-start)
+- [Quick Start](#quick-start-1)
   - [Install Dependencies](#install-dependencies)
 - [Prior Arts](#prior-arts)
 - [LICENSE](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Quick Start
+
+1. Click "Use this template" at this repository.
+2. Rename all `@nomadland/` to your npm package scope:
+
+
 
 ## Concepts
 

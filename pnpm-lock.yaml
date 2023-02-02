@@ -16,13 +16,13 @@ importers:
 
   packages/foo:
     specifiers:
-      '@nomadland/shared': 1.0.0
-      '@nomadland/types': 1.0.0
+      '@ulivz/shared': 0.0.1
+      '@ulivz/types': 0.0.1
       rimraf: 4.1.0
       typescript: 4.9.4
     dependencies:
-      '@nomadland/shared': link:../shared
-      '@nomadland/types': link:../types
+      '@ulivz/shared': link:../shared
+      '@ulivz/types': link:../types
     devDependencies:
       rimraf: 4.1.0
       typescript: 4.9.4

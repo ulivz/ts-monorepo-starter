@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@nomadland/types",
+  "name": "@ulivz/types",
   "version": "0.0.1",
   "main": "lib/index",
   "types": "lib/index",

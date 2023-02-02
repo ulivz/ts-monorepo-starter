@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@nomadland/foo",
+  "name": "@ulivz/foo",
   "version": "0.0.1",
   "main": "lib/index",
   "types": "lib/index",
@@ -14,8 +14,8 @@
     "prepublishOnly": "pnpm run build"
   },
   "dependencies": {
-    "@nomadland/shared": "0.0.1",
-    "@nomadland/types": "0.0.1"
+    "@ulivz/shared": "0.0.1",
+    "@ulivz/types": "0.0.1"
   },
   "devDependencies": {
     "rimraf": "4.1.0",
