@@ -12,11 +12,10 @@
 - [Table of Contents](#table-of-contents)
 - [Quick Start](#quick-start)
 - [Concepts](#concepts)
-  - [Integrations](#integrations)
   - [Go to definition](#go-to-definition)
   - [Lock Dependency Version](#lock-dependency-version)
-- [Quick Start](#quick-start-1)
-  - [Install Dependencies](#install-dependencies)
+- [Integrations](#integrations)
+- [Commands](#commands)
 - [Prior Arts](#prior-arts)
 - [LICENSE](#license)
 
@@ -27,19 +26,11 @@
 1. Click "Use this template" at this repository.
 2. Rename all `@ulivz/` to your npm package scope (e.g. `@foo/`):
 
-![](2023-02-02-13-16-42.png)
 <p align="center">
   <img src="./media/replace-npm-scope.png" width="300">
 </p>
 
 ## Concepts
-
-### Integrations
-
-| Package Manager | [pnpm](https://pnpm.io/)                                                                      |
-| --------------- | --------------------------------------------------------------------------------------------- |
-| Linter          | [eslint](https://pnpm.io/)                                                                    |
-| Lint Preset     | [eslint-config-typescript-library](https://github.com/ulivz/eslint-config-typescript-library) |
 
 ### Go to definition
 
@@ -47,12 +38,20 @@ See: [How to set up a TypeScript monorepo and make Go to definition work](https:
 
 ### Lock Dependency Version
 
-## Quick Start
+## Integrations
 
-### Install Dependencies
+| Package Manager | [pnpm](https://pnpm.io/) |
+| --- | --- |
+| Linter | [eslint](https://pnpm.io/) |
+| Lint Preset | [eslint-config-typescript-library](https://github.com/ulivz/eslint-config-typescript-library) |
+
+## Commands
 
 ```bash
-npm run bootstrap
+npm run bootstrap # Install Dependencies
+npm run docs      # Update TOC at README.md
+npm run clean     # Clean all packages' build assets
+npm run clean     # Clean all packages' build assets
 ```
 
 ## Prior Arts

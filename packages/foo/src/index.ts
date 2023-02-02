@@ -1,4 +1,3 @@
-import { meaningOfLife } from '@nomadland/shared';
+import { NAME } from '@ulivz/shared';
 
-// eslint-disable-next-line no-console
-console.log(meaningOfLife);
+console.log(NAME);

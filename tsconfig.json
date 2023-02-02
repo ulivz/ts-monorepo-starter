@@ -3,9 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@ulivz/*": [
-        "packages/*/src"
-      ]
+      "@ulivz/*": ["packages/*/src"]
     },
     "noEmit": true
   }
