@@ -25,8 +25,9 @@
 ## Quick Start
 
 1. Click "Use this template" at this repository.
-2. Rename all `@ulivz/` to your npm package scope (e.g. `@foo`):
+2. Rename all `@ulivz/` to your npm package scope (e.g. `@foo/`):
 
+![](2023-02-02-13-16-42.png)
 <p align="center">
   <img src="./media/replace-npm-scope.png" width="300">
 </p>
