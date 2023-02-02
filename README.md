@@ -35,9 +35,8 @@
 
 ### Integrations
 
-|                 |                                                                                               |
-| --------------- | --------------------------------------------------------------------------------------------- |
 | Package Manager | [pnpm](https://pnpm.io/)                                                                      |
+| --------------- | --------------------------------------------------------------------------------------------- |
 | Linter          | [eslint](https://pnpm.io/)                                                                    |
 | Lint Preset     | [eslint-config-typescript-library](https://github.com/ulivz/eslint-config-typescript-library) |
 
