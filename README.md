@@ -25,9 +25,11 @@
 ## Quick Start
 
 1. Click "Use this template" at this repository.
-2. Rename all `@nomadland/` to your npm package scope:
+2. Rename all `@ulivz/` to your npm package scope (e.g. `@foo`):
 
-
+<p align="center">
+  <img src="./media/replace-npm-scope.png" width="400">
+</p>
 
 ## Concepts
 
