@@ -14,8 +14,8 @@
     "prepublishOnly": "pnpm run build"
   },
   "dependencies": {
-    "@ulivz/shared": "0.0.1",
-    "@ulivz/types": "0.0.1"
+    "@ulivz/shared": "workspace:*",
+    "@ulivz/types": "workspace:*"
   },
   "devDependencies": {
     "rimraf": "4.1.0",
