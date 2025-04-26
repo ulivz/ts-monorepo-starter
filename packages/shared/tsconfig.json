@@ -12,7 +12,6 @@
     "noEmitOnError": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "types": [],
     "jsx": "react",
     "noEmit": false,
     "baseUrl": ".",
