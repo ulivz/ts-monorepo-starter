@@ -28,6 +28,7 @@
   - [strict-peer-dependencies=false](https://docs.npmjs.com/cli/v7/using-npm/config/#strict-peer-deps)
 - Build: [Rslib](https://lib.rsbuild.dev/).
 - Test: [Vitest](https://lib.rsbuild.dev/).
+- Code Formatting: [Prettier](https://prettier.io/).
 
 ## Quick Start
 
