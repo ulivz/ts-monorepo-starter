@@ -47,6 +47,8 @@ See: [How to set up a TypeScript monorepo and make Go to definition work](https:
 
 ### Lock Dependency Version
 
+All NPM dependency requirements are locked.
+
 ## Integrations
 
 | Package Manager | [pnpm](https://pnpm.io/) |

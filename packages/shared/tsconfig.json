@@ -1,3 +1,25 @@
 {
-  "extends": "../../tsconfig.json"
+  "include": [
+    "src"
+  ],
+  "compilerOptions": {
+    "module": "nodenext",
+    "target": "esnext",
+    "moduleResolution": "nodenext",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "noEmitOnError": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "types": [],
+    "jsx": "react",
+    "noEmit": false,
+    "baseUrl": ".",
+    "paths": {
+      "@default-scope/*": [
+        "packages/*/src"
+      ]
+    }
+  }
 }

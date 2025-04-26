@@ -6,6 +6,7 @@
     "bootstrap": "pnpm install --prefer-offline",
     "docs": "doctoc --title '## Table of Contents' README.md",
     "clean": "pnpm run -r clean",
+    "dev": "pnpm --parallel run dev",
     "build": "pnpm clean && pnpm run -r build",
     "test": "vitest run",
     "test:watch": "vitest",
