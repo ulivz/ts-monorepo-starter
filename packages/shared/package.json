@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@tslib/shared",
+  "name": "@default-scope/shared",
   "version": "0.0.1",
   "main": "dist/index",
   "types": "dist/index",

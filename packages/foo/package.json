@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@tslib/foo",
+  "name": "@default-scope/foo",
   "version": "0.0.1",
   "main": "dist/index",
   "types": "dist/index",
@@ -16,7 +16,7 @@
     "prepublishOnly": "pnpm run build"
   },
   "dependencies": {
-    "@tslib/shared": "workspace:*"
+    "@default-scope/shared": "workspace:*"
   },
   "devDependencies": {
     "@rslib/core": "0.6.7",

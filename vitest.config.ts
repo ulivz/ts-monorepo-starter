@@ -9,8 +9,8 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@tslib/shared': resolve(__dirname, 'packages/shared/src'),
-      '@tslib/foo': resolve(__dirname, 'packages/foo/src'),
+      '@default-scope/shared': resolve(__dirname, 'packages/shared/src'),
+      '@default-scope/foo': resolve(__dirname, 'packages/foo/src'),
     },
   },
 });

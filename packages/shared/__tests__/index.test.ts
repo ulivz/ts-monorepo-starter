@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { NAME, Options } from '@tslib/shared';
+import { NAME, Options } from '@default-scope/shared';
 
 describe('shared', () => {
   it('should export NAME constant', () => {

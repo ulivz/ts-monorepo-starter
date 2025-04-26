@@ -41,7 +41,7 @@ importers:
 
   packages/foo:
     dependencies:
-      '@tslib/shared':
+      '@default-scope/shared':
         specifier: workspace:*
         version: link:../shared
     devDependencies:
