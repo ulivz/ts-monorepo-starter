@@ -23,10 +23,11 @@
 
 ## Tech Stack
 
-- [PNPM](https://pnpm.io/).
+- Package Manager: [PNPM](https://pnpm.io/).
   - Version: 10
   - [strict-peer-dependencies=false](https://docs.npmjs.com/cli/v7/using-npm/config/#strict-peer-deps)
-- [Rslib](https://lib.rsbuild.dev/).
+- Build: [Rslib](https://lib.rsbuild.dev/).
+- Test: [Vitest](https://lib.rsbuild.dev/).
 
 ## Quick Start
 
