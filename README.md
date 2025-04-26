@@ -38,8 +38,6 @@
   <img src="./media/replace-npm-scope.png" width="300">
 </p>
 
-![alt text](image.png)
-
 ## Concepts
 
 ### Go to definition
@@ -70,4 +68,4 @@ npm run clean     # Clean all packages' build assets
 
 ## LICENSE
 
-MIT License © [default-scope](https://github.com/default-scope)
+MIT License © [ULIVZ](https://github.com/ulivz)
