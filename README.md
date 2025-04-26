@@ -24,7 +24,7 @@
 ## Quick Start
 
 1. Click "Use this template" at this repository.
-2. Rename all `@ulivz/` to your npm package scope (e.g. `@foo/`):
+2. Rename all `@tslib/` to your npm package scope (e.g. `@foo/`):
 
 <p align="center">
   <img src="./media/replace-npm-scope.png" width="300">
@@ -43,7 +43,7 @@ See: [How to set up a TypeScript monorepo and make Go to definition work](https:
 | Package Manager | [pnpm](https://pnpm.io/) |
 | --- | --- |
 | Linter | [eslint](https://pnpm.io/) |
-| Lint Preset | [eslint-config-typescript-library](https://github.com/ulivz/eslint-config-typescript-library) |
+| Lint Preset | [eslint-config-typescript-library](https://github.com/tslib/eslint-config-typescript-library) |
 
 ## Commands
 
@@ -60,4 +60,4 @@ npm run clean     # Clean all packages' build assets
 
 ## LICENSE
 
-MIT License © [ULIVZ](https://github.com/ulivz)
+MIT License © [tslib](https://github.com/tslib)

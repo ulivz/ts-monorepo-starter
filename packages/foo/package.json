@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@ulivz/foo",
+  "name": "@tslib/foo",
   "version": "0.0.1",
   "main": "lib/index",
   "types": "lib/index",
@@ -14,8 +14,8 @@
     "prepublishOnly": "pnpm run build"
   },
   "dependencies": {
-    "@ulivz/shared": "workspace:*",
-    "@ulivz/types": "workspace:*"
+    "@tslib/shared": "workspace:*",
+    "@tslib/types": "workspace:*"
   },
   "devDependencies": {
     "rimraf": "4.1.0",

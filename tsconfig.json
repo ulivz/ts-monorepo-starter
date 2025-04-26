@@ -3,7 +3,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@ulivz/*": ["packages/*/src"]
+      "@tslib/*": [
+        "packages/*/src"
+      ]
     },
     "noEmit": true
   }

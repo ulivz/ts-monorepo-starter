@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@ulivz/types",
+  "name": "@tslib/types",
   "version": "0.0.1",
   "main": "lib/index",
   "types": "lib/index",

@@ -1,3 +1,3 @@
-import { NAME } from '@ulivz/shared';
+import { NAME } from '@tslib/shared';
 
 console.log(NAME);

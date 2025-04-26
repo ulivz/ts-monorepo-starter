@@ -12,5 +12,8 @@
     "jsx": "react",
     "noEmit": false
   },
-  "exclude": ["node_modules", "lib"]
+  "exclude": [
+    "node_modules",
+    "lib"
+  ]
 }
