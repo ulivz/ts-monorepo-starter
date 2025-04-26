@@ -1,12 +1,21 @@
 {
-  "extends": "./tsconfig.build.json",
   "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "noEmitOnError": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "types": [],
+    "jsx": "react",
+    "noEmit": false,
     "baseUrl": ".",
     "paths": {
       "@tslib/*": [
         "packages/*/src"
       ]
-    },
-    "noEmit": true
+    }
   }
 }

@@ -8,17 +8,16 @@
     "lib"
   ],
   "scripts": {
-    "build": "pnpm run clean && pnpm run compile",
-    "clean": "rimraf ./lib",
-    "compile": "tsc -p tsconfig.build.json",
+    "dev": "rslib build --watch",
+    "build": "rslib build",
+    "prepare": "npm run build",
     "prepublishOnly": "pnpm run build"
   },
   "dependencies": {
-    "@tslib/shared": "workspace:*",
-    "@tslib/types": "workspace:*"
+    "@tslib/shared": "workspace:*"
   },
   "devDependencies": {
-    "rimraf": "4.1.0",
+    "@rslib/core": "0.6.7",
     "typescript": "4.9.4"
   }
 }

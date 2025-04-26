@@ -9,7 +9,7 @@
 
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
+- [Tech Stack](#tech-stack)
 - [Quick Start](#quick-start)
 - [Concepts](#concepts)
   - [Go to definition](#go-to-definition)
@@ -20,6 +20,11 @@
 - [LICENSE](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Tech Stack
+
+- [PNPM](https://pnpm.io/).
+- [Rslib](https://lib.rsbuild.dev/).
 
 ## Quick Start
 
