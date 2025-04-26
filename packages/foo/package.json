@@ -2,14 +2,16 @@
   "private": true,
   "name": "@tslib/foo",
   "version": "0.0.1",
-  "main": "lib/index",
-  "types": "lib/index",
+  "main": "dist/index",
+  "types": "dist/index",
   "files": [
-    "lib"
+    "dist"
   ],
   "scripts": {
     "dev": "rslib build --watch",
     "build": "rslib build",
+    "test": "vitest run --dir __tests__",
+    "clean": "rm -rf dist coverage",
     "prepare": "npm run build",
     "prepublishOnly": "pnpm run build"
   },

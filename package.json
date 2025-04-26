@@ -7,19 +7,28 @@
     "docs": "doctoc --title '## Table of Contents' README.md",
     "clean": "pnpm run -r clean",
     "build": "pnpm clean && pnpm run -r build",
-    "test": "pnpm run -r test",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
     "lint": "eslint --ext js,ts,tsx packages",
     "lint:fix": "npm run lint -- --fix",
     "format": "pnpm prettier --write .",
     "prepare": "husky install"
   },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=10.0.0"
+  },
   "devDependencies": {
+    "@types/node": "^22.15.2",
+    "@vitest/coverage-v8": "^1.4.0",
     "doctoc": "2.2.1",
     "eslint": "9.20.1",
     "eslint-config-prettier": "^10.0.1",
     "eslint-config-typescript-library": "0.3.0",
     "husky": "^9.1.7",
     "prettier": "3.5.1",
-    "typescript": "5.7.3"
+    "typescript": "5.7.3",
+    "vitest": "^1.4.0"
   }
 }
