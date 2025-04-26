@@ -3,7 +3,7 @@ import { NAME, Options } from '@default-scope/shared';
 
 describe('shared', () => {
   it('should export NAME constant', () => {
-    expect(NAME).toBe('ts-monorepo-template');
+    expect(NAME).toBe('ts-monorepo-starter');
   });
 
   it('should have correct Options interface', () => {

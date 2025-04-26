@@ -1,4 +1,4 @@
-export const NAME = 'ts-monorepo-template';
+export const NAME = 'ts-monorepo-starter';
 
 export interface Options {
   name: string;

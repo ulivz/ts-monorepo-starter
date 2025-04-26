@@ -1,4 +1,4 @@
-<h1 align="center">ts-monorepo-template</h1>
+<h1 align="center">ts-monorepo-starter</h1>
 
 <p align="center">
   A hassle-free TypeScript monorepo template

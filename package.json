@@ -1,5 +1,5 @@
 {
-  "name": "ts-monorepo-template",
+  "name": "ts-monorepo-starter",
   "description": "A hassle-free TypeScript monorepo template",
   "private": true,
   "scripts": {
