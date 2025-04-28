@@ -16,6 +16,10 @@
     "prepare": "npm run build",
     "prepublishOnly": "pnpm run build"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "devDependencies": {
     "@rslib/core": "0.6.7",
     "typescript": "5.8.3"
