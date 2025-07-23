@@ -62,7 +62,7 @@ All NPM dependency requirements are locked.
 npm run bootstrap # Install Dependencies
 npm run docs      # Update TOC at README.md
 npm run clean     # Clean all packages' build assets
-npm run clean     # Clean all packages' build assets
+npm run release   # Release packages, using `release:dryrun` for dry run
 ```
 
 ## Prior Arts
