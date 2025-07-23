@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "@default-scope/foo",
   "version": "0.0.1",
   "main": "dist/index.js",
